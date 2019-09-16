@@ -8,7 +8,7 @@ An example usage is if you wanted to create a Java function which took two float
 import jempy
 
 add = jempy.create_function([["float", "a"],
-                             ["floar", "b"],
+                             ["float", "b"],
                              float,
                              "System.out.println(a+b);")
 
